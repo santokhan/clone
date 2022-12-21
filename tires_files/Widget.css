@@ -1,0 +1,1568 @@
+﻿@font-face {
+    font-family: 'museo_slab500';
+    src: url('Museo_Slab_500_2-webfont.eot');
+    src: url('Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'), url('Museo_Slab_500_2-webfont.ttf') format('truetype'), url('Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tasite-bootstrap-styles {
+    font-family: museo_slab500 !important;
+    line-height: 1.428571429;
+}
+
+.tasite-bootstrap-styles .modal-content {
+    font-family: museo_slab500 !important;
+    line-height: 1.428571429;
+}
+
+/*#region GENERAL SELECTORS */
+#ta-widget-container,
+#inventory-widget-container {
+    font-family: museo_slab500;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+}
+
+#ta-widget-container [class*=glyphicon]:before {
+    font-family: 'Glyphicons Halflings' !important;
+}
+
+.tasite-bootstrap-styles a,
+button,
+.btn,
+input,
+.btn-group {
+    transition: none;
+    /* background 0.25s, color 0.25s; */
+}
+
+.tasite-bootstrap-styles .margin-btm {
+    margin-bottom: 1em;
+}
+
+.tasite-bootstrap-styles .pad-2 {
+    padding: 0 3em !important;
+}
+
+.tasite-bootstrap-styles .btn.blue {
+    color: #fff;
+    background-color: #333e75;
+    border-color: #333e75;
+}
+
+.tasite-bootstrap-styles .btn.red {
+    background-color: #e21a23;
+    border-color: #e21a23;
+    color: #fff !important;
+}
+
+.tasite-bootstrap-styles .btn.darkgrey {
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+    color: #fff !important;
+}
+
+.tasite-bootstrap-styles .btn.lightgrey {
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+    color: #fff;
+}
+
+.tasite-bootstrap-styles .btn.red:active,
+.tasite-bootstrap-styles .btn.red:focus,
+.tasite-bootstrap-styles .btn.red:hover,
+.tasite-bootstrap-styles .btn.red:active:focus {
+    background: #b7151d !important;
+    border-color: #b7151d !important;
+    color: #fff !important;
+}
+
+.tasite-bootstrap-styles .btn.blue:hover,
+.tasite-bootstrap-styles .btn.blue:active,
+.tasite-bootstrap-styles .btn.blue:focus,
+.tasite-bootstrap-styles .btn.blue:active:focus {
+    color: #fff !important;
+    background-color: #333e75 !important;
+    border-color: #333e75 !important;
+}
+
+.tasite-bootstrap-styles .btn.darkgrey:hover,
+.tasite-bootstrap-styles .btn.darkgrey:active,
+.tasite-bootstrap-styles .btn.darkgrey:focus,
+.tasite-bootstrap-styles .btn.darkgrey:active:focus {
+    color: #fff !important;
+    background-color: #2f2f2f !important;
+    border-color: #2f2f2f !important;
+}
+
+.tasite-bootstrap-styles .btn.lightgrey:hover,
+.tasite-bootstrap-styles .btn.lightgrey:active,
+.tasite-bootstrap-styles .btn.lightgrey:focus,
+.tasite-bootstrap-styles .btn.lightgrey:active:focus {
+    color: #fff !important;
+    background-color: #a2a2a2 !important;
+    border-color: #a2a2a2 !important;
+}
+
+.tasite-bootstrap-styles .close-btn.red {
+    color: #e21a23;
+    margin-left: 0.5em;
+}
+
+.tasite-bootstrap-styles .close-btn.blue {
+    color: #333e75;
+    margin-left: 0.5em;
+}
+
+.tasite-bootstrap-styles .close-btn.darkgrey {
+    color: #2f2f2f;
+    margin-left: 0.5em;
+}
+
+.tasite-bootstrap-styles .close-btn.lightgrey {
+    color: #a2a2a2;
+    margin-left: 0.5em;
+}
+
+.tasite-bootstrap-styles .ta-hr {
+    margin: 1.5em -1.5em;
+}
+
+.tasite-bootstrap-styles .close-btn {
+    cursor: pointer;
+}
+
+/*#endregion*/
+
+/*#region MISC*/
+
+.tasite-bootstrap-styles .printableContent {
+    font-family: museo_slab500;
+}
+
+.tasite-bootstrap-styles .modal-dialog img {
+    max-width: 100%;
+}
+
+.tasite-bootstrap-styles #veil {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: wait;
+    filter: alpha(opacity=10);
+    opacity: 0.1;
+    background: #000000 no-repeat center;
+    z-index: 10000;
+}
+
+.tasite-bootstrap-styles #feedLoading {
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    cursor: wait;
+    text-shadow: .2em .2em .2em #021124;
+    z-index: 10001;
+}
+
+
+.tasite-bootstrap-styles .btn[disabled] {
+    color: rgba(0, 0, 0, 0.5) !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+    background: #009688 !important;
+}
+
+.tasite-bootstrap-styles button#btnReset {
+    background: dimgray;
+    color: white;
+}
+
+/*#endregion*/
+
+/*#region SEARCH WIDGET NAV*/
+
+.tasite-bootstrap-styles .ta-search-header.blue {
+    color: #333e75;
+}
+
+.tasite-bootstrap-styles .ta-widget-header.red h1,
+.tasite-bootstrap-styles .ta-widget-header.red h2,
+.tasite-bootstrap-styles .ta-widget-header.red h3,
+.tasite-bootstrap-styles .ta-widget-header.red h4,
+.tasite-bootstrap-styles .ta-widget-header.red h5,
+.tasite-bootstrap-styles .ta-widget-header.red h6 {
+    font-family: museo_slab500;
+    background-color: #e21a23;
+    color: white;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.tasite-bootstrap-styles .ta-widget-header.blue h1,
+.tasite-bootstrap-styles .ta-widget-header.blue h2,
+.tasite-bootstrap-styles .ta-widget-header.blue h3,
+.tasite-bootstrap-styles .ta-widget-header.blue h4,
+.tasite-bootstrap-styles .ta-widget-header.blue h5,
+.tasite-bootstrap-styles .ta-widget-header.blue h6 {
+    font-family: museo_slab500;
+    background-color: #333e75;
+    color: white;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.tasite-bootstrap-styles .ta-widget-header.darkgrey h1,
+.tasite-bootstrap-styles .ta-widget-header.darkgrey h2,
+.tasite-bootstrap-styles .ta-widget-header.darkgrey h3,
+.tasite-bootstrap-styles .ta-widget-header.darkgrey h4,
+.tasite-bootstrap-styles .ta-widget-header.darkgrey h5,
+.tasite-bootstrap-styles .ta-widget-header.darkgrey h6 {
+    font-family: museo_slab500;
+    background-color: #2f2f2f;
+    color: white;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.tasite-bootstrap-styles .ta-widget-header.lightgrey h1,
+.tasite-bootstrap-styles .ta-widget-header.lightgrey h2,
+.tasite-bootstrap-styles .ta-widget-header.lightgrey h3,
+.tasite-bootstrap-styles .ta-widget-header.lightgrey h4,
+.tasite-bootstrap-styles .ta-widget-header.lightgrey h5,
+.tasite-bootstrap-styles .ta-widget-header.lightgrey h6 {
+    font-family: museo_slab500;
+    background-color: #a2a2a2;
+    color: white;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.tasite-bootstrap-styles .panel-heading.ta-panel-heading.red {
+    border-color: #e21a23;
+    background-color: #e21a23;
+    color: white;
+}
+
+.tasite-bootstrap-styles .panel-heading.ta-panel-heading.blue {
+    border-color: #333e75;
+    background-color: #333e75;
+    color: white;
+}
+
+.tasite-bootstrap-styles .panel-heading.ta-panel-heading.darkgrey {
+    border-color: #2f2f2f;
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.tasite-bootstrap-styles .panel-heading.ta-panel-heading.lightgrey {
+    border-color: #a2a2a2;
+    background-color: #a2a2a2;
+    color: white;
+}
+
+.tasite-bootstrap-styles .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\2212";
+    float: right;
+    color: white;
+}
+
+.tasite-bootstrap-styles .panel-heading h5 a.collapsed:after {
+    content: "\2b";
+}
+
+.tasite-bootstrap-styles .panel-heading h5 a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+.tasite-bootstrap-styles .search-widget .navbar {
+    margin-bottom: .25em;
+    position: relative;
+    border: none !important;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-collapse {
+    position: absolute;
+    width: 100%;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-header.red {
+    background-color: #e21a23;
+    border-color: #e21a23;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-header.darkgrey {
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-header.lightgrey {
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-brand {
+    color: #fff !important;
+    float: none !important;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.red {
+    background-color: #e21a23 !important;
+    width: auto;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.red:hover {
+    background-color: #e21a23 !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.red:focus {
+    background-color: #e21a23 !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.darkgrey {
+    background-color: #2f2f2f !important;
+    width: auto;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.darkgrey:hover {
+    background-color: #2f2f2f !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.darkgrey:focus {
+    background-color: #2f2f2f !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.lightgrey {
+    background-color: #a2a2a2 !important;
+    width: auto;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.lightgrey:hover {
+    background-color: #a2a2a2 !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.lightgrey:focus {
+    background-color: #a2a2a2 !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.blue {
+    background-color: #333e75 !important;
+    width: auto;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.blue:hover {
+    background-color: #333e75 !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle.blue:focus {
+    background-color: #333e75 !important;
+    opacity: .8;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+}
+
+.tasite-bootstrap-styles .search-widget .navbar-header.blue {
+    color: #fff;
+    background-color: #333e75;
+    border-color: #333e75;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tasite-bootstrap-styles .ta-navbar-header {
+    margin-top: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tasite-bootstrap-styles #navbarBrowse {
+    z-index: 1001;
+}
+
+.tasite-bootstrap-styles #navbarBrowse.red {
+    color: #fff;
+    background-color: #e21a23;
+    border-color: #e21a23;
+}
+
+.tasite-bootstrap-styles #navbarBrowse.blue {
+    color: #fff;
+    background-color: #333e75;
+    border-color: #333e75;
+}
+
+.tasite-bootstrap-styles #navbarBrowse.darkgrey {
+    color: #fff;
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+}
+
+.tasite-bootstrap-styles #navbarBrowse.lightgrey {
+    color: #fff;
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+}
+
+.tasite-bootstrap-styles #navbarBrowse a {
+    color: #fff;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.red a.dropdown-toggle {
+    color: #e21a23 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.red ul.dropdown-menu a:hover {
+    color: #e21a23 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.blue a.dropdown-toggle {
+    color: #333e75 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.blue ul.dropdown-menu a:hover {
+    color: #333e75 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.darkgrey a.dropdown-toggle {
+    color: #2f2f2f !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.darkgrey ul.dropdown-menu a:hover {
+    color: #2f2f2f !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.lightgrey a.dropdown-toggle {
+    color: #a2a2a2 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.dropdown.open.lightgrey ul.dropdown-menu a:hover {
+    color: #a2a2a2 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+/*#endregion*/
+/*#region SEARCH WIDGET HEADER*/
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group {
+    margin-bottom: 1em;
+}
+
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group .btn-group {
+    padding: 0.5em;
+    border-right: .1em solid;
+    border-bottom: .1em solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+    background: dimgrey;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group .btn-group.active,
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group .btn-group:hover,
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group .btn-group:active,
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group .btn-group:focus,
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group .btn-group:active:focus {
+    background: #009688;
+    color: black;
+}
+
+.tasite-bootstrap-styles .search-widget .ta-widget-button-group .btn-group:last-child {
+    border-right-color: transparent;
+}
+
+/*#endregion*/
+/*#region SEARCH WIDGET*/
+.tasite-bootstrap-styles .search-widget {
+    position: relative;
+    border: 0.1em solid rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    overflow: hidden;
+    background: rgb(211, 211, 211);
+}
+
+.tasite-bootstrap-styles .search-widget img {
+    margin-bottom: 1.5em;
+}
+
+.tasite-bootstrap-styles .search-widget h1,
+.tasite-bootstrap-styles .search-widget h2,
+.tasite-bootstrap-styles .search-widget h3,
+.tasite-bootstrap-styles .search-widget h4,
+.tasite-bootstrap-styles .search-widget h5,
+.tasite-bootstrap-styles .search-widget h6 {
+    text-align: center;
+    margin: 0;
+    padding: 0.7em;
+}
+
+.tasite-bootstrap-styles .search-widget.transparent {
+    background: rgba(211, 211, 211, 0.5);
+}
+
+.tasite-bootstrap-styles .search-widget button {
+    opacity: 1 !important;
+    border: .1em solid rgba(0, 0, 0, 0.5);
+    box-shadow: .2em .2em .4em rgba(0, 0, 0, 0.2);
+}
+
+.tasite-bootstrap-styles .search-widget button,
+.tasite-bootstrap-styles .search-widget a.btn {
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+    width: 100%;
+    white-space: normal;
+}
+
+.tasite-bootstrap-styles .search-widget .ta-widget-input {
+    display: block;
+    width: 100%;
+    min-height: 2em;
+    padding: 0 1em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.tasite-bootstrap-styles .modal-dialog input[type=text] {
+    display: block;
+    width: 100%;
+    min-height: 2em;
+    padding: 0 1em;
+    margin-bottom: .5em;
+}
+
+.tasite-bootstrap-styles .modal-dialog input[type=tel],
+.tasite-bootstrap-styles .modal-dialog input[type=email],
+.tasite-bootstrap-styles .modal-dialog input[type=number] {
+    display: block;
+    width: 100%;
+    min-height: 2em;
+    padding: 0 1em;
+    margin-bottom: .5em;
+    max-width: 280px;
+}
+
+.tasite-bootstrap-styles .modal-dialog .ta-radio-label {
+    vertical-align: middle;
+}
+
+.tasite-bootstrap-styles .modal-dialog .ta-paypal-image {
+    margin-left: 10px;
+}
+
+.tasite-bootstrap-styles .modal-dialog .ta-paypal-note {
+    margin-left: 30px;
+}
+
+.tasite-bootstrap-styles .modal-dialog input[type=radio] {
+    display: inline-block;
+    width: 1.5em;
+    min-height: 1.5em;
+    padding: 0 1em;
+    margin-bottom: .5em;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+.tasite-bootstrap-styles .modal-dialog input[type=checkbox] {
+    display: inline-block;
+    width: 1.5em;
+    min-height: 1.5em;
+    padding: 0 1em;
+    margin-bottom: .5em;
+    margin-left: .5em;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+.tasite-bootstrap-styles .modal-dialog .panel-collapse input[type=radio] {
+    display: inline-block;
+    width: 1.5em;
+    min-height: 1.5em;
+    padding: 0 1em;
+    margin-bottom: .5em;
+    margin-left: .5em;
+    vertical-align: middle;
+}
+
+.tasite-bootstrap-styles .modal-dialog .panel-collapse input[type=checkbox] {
+    display: inline-block;
+    width: 1.5em;
+    min-height: 1.5em;
+    padding: 0 1em;
+    margin-bottom: .5em;
+    margin-left: .5em;
+    vertical-align: middle;
+}
+
+.tasite-bootstrap-styles .modal-dialog select {
+    min-height: 2em;
+    padding: 0 1em;
+    margin-bottom: .5em;
+}
+
+.tasite-bootstrap-styles .search-widget button#btnReset:active,
+.tasite-bootstrap-styles .search-widget button#btnReset:focus,
+.tasite-bootstrap-styles .search-widget button#btnReset:hover,
+.tasite-bootstrap-styles .search-widget button#btnReset:active:focus {
+    background: #282828;
+    color: #fff;
+}
+
+.tasite-bootstrap-styles .search-widget-content-wrapper {}
+
+.tasite-bootstrap-styles .ta-search-buttons-content img {
+    margin: auto;
+}
+
+/*.ta-search-buttons-content {
+    margin-bottom: 1.5em;
+}*/
+
+.tasite-bootstrap-styles img.ta-widget-logo {
+    max-width: calc(100% + 40px);
+    padding: 0 1em 1em 0;
+    margin: 0 !important;
+}
+
+/*#endregion*/
+/*#region SEARCH WIDGET FOOTER*/
+.tasite-bootstrap-styles .ta-search-footer-content {
+    display: flex;
+}
+
+.tasite-bootstrap-styles .ta-search-footer-content>a {
+    float: left;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 33.3333%;
+    padding: 0.75em;
+    border-right: .1em solid;
+    border-top: .1em solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+    text-decoration: none !important;
+    background: dimgray;
+}
+
+.tasite-bootstrap-styles .ta-search-footer-content>a:first-child {
+    border-left-color: transparent;
+    border-bottom-left-radius: .9em;
+}
+
+.tasite-bootstrap-styles .ta-search-footer-content>a:last-child {
+    border-right-color: transparent;
+    border-bottom-right-radius: .9em;
+}
+
+.tasite-bootstrap-styles .ta-search-footer-content>a:hover,
+.tasite-bootstrap-styles .ta-search-footer-content>a:focus,
+.tasite-bootstrap-styles .ta-search-footer-content>a:active {
+    background: #282828;
+    color: #fff;
+}
+
+/*#endregion*/
+/*#region Misc Modal*/
+.tasite-bootstrap-styles .ta-search-result-header {
+    border: .1em solid grey;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    background-color: white;
+    padding: .5em;
+    text-align: center;
+}
+
+.tasite-bootstrap-styles .ta-result {
+    border: .1em solid grey;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    background-color: white;
+    padding: .5em;
+}
+
+.tasite-bootstrap-styles .ta-tire-info {
+    background-color: white;
+}
+
+.tasite-bootstrap-styles .ta-dialog {
+    background-color: #009688;
+}
+
+.tasite-bootstrap-styles .modal-dialog {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 90% !important;
+    min-width: 300px !important;
+}
+
+.tasite-bootstrap-styles .ta-tire-image {
+    max-height: 100px;
+}
+
+.tasite-bootstrap-styles .ta-dealer-location {
+    border: .1em solid grey;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    background-color: white;
+    padding: .5em;
+    max-width: 100%;
+    text-align: center;
+}
+
+.tasite-bootstrap-styles .ta-dealer-location-header {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.tasite-bootstrap-styles .ta-dealer-location-title {
+    font-size: 1.333em;
+    font-weight: bold;
+}
+
+.tasite-bootstrap-styles .ta-additional-results-header {
+    font-size: 1.333em;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.tasite-bootstrap-styles .pull-right-not-xs {
+    float: right;
+}
+
+.tasite-bootstrap-styles .ta-available-location {
+    border: .1em solid black;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    background-color: white;
+    padding: .5em;
+}
+
+.tasite-bootstrap-styles .spritespin-stage img {
+    max-height: 210px;
+    max-width: 245px;
+}
+
+.tasite-bootstrap-styles .ta-heading-text {
+    font-size: 1.333em;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.tasite-bootstrap-styles .ta-display-price {
+    font-size: 1.333em;
+    font-weight: bold;
+}
+
+.tasite-bootstrap-styles .ta-strike-price {
+    font-size: 1.333em;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.tasite-bootstrap-styles .clear-filter-mobile-btn {
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 1rem !important;
+}
+
+.tasite-bootstrap-styles .additional-results-row {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.tasite-bootstrap-styles .ta-search-result-button-group {
+    margin-bottom: 1em;
+}
+
+/*#endregion*/
+/*#region SEARCH WIDGET DOT*/
+
+.tasite-bootstrap-styles #byDOT .ta-search-footer-content>a {
+    width: 100%;
+}
+
+.tasite-bootstrap-styles #byDOT>[class*="col-"] {
+    margin-top: 1.5em;
+}
+
+/*#endregion*/
+
+/*region select dealer location*/
+.tasite-bootstrap-styles .selectDealerContainer {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.tasite-bootstrap-styles .selectDealerLocation {
+    padding: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 450px;
+}
+
+.tasite-bootstrap-styles .roundedBox {
+    border: .1em solid black;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    margin-right: .5em;
+    background-color: white;
+    padding: .5em;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tasite-bootstrap-styles .rounded-box-pad {
+    height: 255px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    width: 100%;
+}
+
+.tasite-bootstrap-styles .dealerLocationHeader {
+    height: 40%;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tasite-bootstrap-styles .dealerLocationAddress {
+    height: 22%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tasite-bootstrap-styles .dealerLocationPhone {
+    height: 13%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tasite-bootstrap-styles .selectDealerSelectStoreBtn {
+    height: 13%;
+    text-align: center;
+}
+
+.tasite-bootstrap-styles .select-dealer-header {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.333em;
+}
+
+/*endregion*/
+
+.tasite-bootstrap-styles .cartContentsContainer {
+    width: 100%;
+    padding: 1em;
+    border-radius: 1em;
+    border: 0.1em solid rgba(0, 0, 0, 1);
+    margin-bottom: 1em;
+    border-collapse: separate;
+}
+
+.tasite-bootstrap-styles .cartContentsHeader {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.tasite-bootstrap-styles .cart-header-column {
+    width: 60%;
+    font-weight: bold;
+    font-size: 1.333em;
+}
+
+.tasite-bootstrap-styles .cart-payment-options {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: right;
+}
+
+.tasite-bootstrap-styles .cart-price-header-column {
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.333em;
+}
+
+.tasite-bootstrap-styles .cart-quantity-header-column {
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.333em;
+    text-align: right;
+}
+
+.tasite-bootstrap-styles .cart-image-column {
+    width: 15%;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: .5em;
+}
+
+.tasite-bootstrap-styles .cart-item-column {
+    width: 45%;
+    vertical-align: middle;
+    font-size: 1em;
+    word-break: break-word;
+}
+
+.tasite-bootstrap-styles .cart-item-description {
+    font-size: 1.333em;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.tasite-bootstrap-styles .cart-price-column {
+    width: 20%;
+    vertical-align: middle;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.tasite-bootstrap-styles .cart-quantity-column {
+    width: 20%;
+    font-size: 1em;
+}
+
+.tasite-bootstrap-styles .cart-buttons-wrapper {
+    margin: 1em auto;
+}
+
+.tasite-bootstrap-styles .cart-quantity {
+    font-weight: normal;
+    width: 60px !important;
+    height: 34px;
+    padding-left: 1em;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #555;
+    float: right;
+}
+
+.tasite-bootstrap-styles .cart-quantity-label {
+    font-weight: normal;
+    width: 60px;
+    height: 1em;
+    padding-left: 1em;
+    font-size: 12px;
+    float: right;
+}
+
+.tasite-bootstrap-styles .ta-add-cart {
+    max-width: 50px;
+    cursor: pointer;
+}
+
+.tasite-bootstrap-styles .ta-rebate-image {
+    cursor: pointer;
+}
+
+.tasite-bootstrap-styles .rebate-detail-image {
+    max-height: 600px;
+}
+
+.tasite-bootstrap-styles .rebate-back-btn {
+    margin-top: 20px;
+}
+
+.tasite-bootstrap-styles .ta-paypal-checkout-image {
+    cursor: pointer;
+}
+
+.tasite-bootstrap-styles .cart-additional-services {
+    font-size: 1.333em;
+    text-decoration: underline;
+}
+
+.tasite-bootstrap-styles .cart-subtotal {
+    font-weight: bold;
+    font-size: 1.333em;
+}
+
+.tasite-bootstrap-styles .cart-fet {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.tasite-bootstrap-styles .good-better-best-div {
+    margin-top: -.5em;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    margin-bottom: .5em;
+    padding: .5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tasite-bootstrap-styles .good-better-best-div.red {
+    color: #fff;
+    background-color: #e21a23;
+    border-color: #e21a23;
+}
+
+.tasite-bootstrap-styles .good-better-best-div.blue {
+    color: #fff;
+    background-color: #333e75;
+    border-color: #333e75;
+}
+
+.tasite-bootstrap-styles .good-better-best-div.darkgrey {
+    color: #fff;
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+}
+
+.tasite-bootstrap-styles .good-better-best-div.lightgrey {
+    color: #fff;
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+}
+
+.tasite-bootstrap-styles #taPrintHeader {
+    display: none;
+}
+
+.tasite-bootstrap-styles #searchCartLink {
+    margin-right: 5px;
+}
+
+.tasite-bootstrap-styles #searchCompareLink {
+    margin-right: 5px;
+}
+
+.tasite-bootstrap-styles .ta-hr {
+    border-top: 1px solid #000000 !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.tasite-bootstrap-styles .tire-info-hr {
+    border-top: 1px solid #000000 !important;
+}
+
+.tasite-bootstrap-styles .header-ta-logo {
+    display: inline-block;
+    width: 33%;
+    vertical-align: bottom;
+}
+
+.tasite-bootstrap-styles .header-step-logo {
+    display: inline-block;
+    width: 34%;
+    vertical-align: bottom;
+    margin: 0 auto;
+}
+
+.tasite-bootstrap-styles .header-dealer-name {
+    display: inline-block;
+    width: 30%;
+    vertical-align: bottom;
+    font-size: 2vw;
+}
+
+.tasite-bootstrap-styles #taHeaderLogo {
+    width: 50%;
+    float: right;
+}
+
+.tasite-bootstrap-styles #taHeaderStepImage {
+    width: 100%;
+    float: left;
+}
+
+.tasite-bootstrap-styles #btnViewWishlist {
+    margin-top: 10px;
+}
+
+.tasite-bootstrap-styles .wishlist-grid {
+    padding-bottom: 10px;
+}
+
+.tasite-bootstrap-styles p.indent {
+    padding-left: 1.8em;
+}
+
+.tasite-bootstrap-styles p.indent2 {
+    padding-left: 3.6em;
+}
+
+.tasite-bootstrap-styles ta-checkout-customer-info input[type=text] {
+    margin-bottom: .5em;
+}
+
+.tasite-bootstrap-styles .hideExtraTireInfo {
+    display: block !important;
+}
+
+.tasite-bootstrap-styles .form-control.datePicker-control {
+    font-family: museo_slab500;
+    font-size: 12px;
+    height: 40px;
+    width: 100%;
+    max-width: inherit;
+    margin-bottom: 0 !important;
+}
+
+.tasite-bootstrap-styles .btn.btn-default.datePicker-control {
+    height: 40px;
+    top: 0px;
+}
+
+.tasite-bootstrap-styles .ta-search-buttons-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tasite-bootstrap-styles .ta-flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tasite-bootstrap-styles .contact-row {
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+}
+
+.tasite-bootstrap-styles .discount-text {
+    display: inline-block;
+    width: auto;
+    padding: 0.5em 15px;
+    margin: 0.5em auto;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    color: #e21a23;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.tasite-bootstrap-styles .discount-amount-text {
+    color: #e21a23;
+}
+
+.tasite-bootstrap-styles .unequalHeightStrategyLevel {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightProductName {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightWarranty {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightBenefits {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightFeatures {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightPrice {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightDetails {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightBrandImage {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightTireImage {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightPatternImage {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .unequalHeightTitle {
+    height: auto !important;
+}
+
+.tasite-bootstrap-styles .cart-footer-btn {
+    width: 100%;
+}
+
+.tasite-bootstrap-styles #divSpin {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.tasite-bootstrap-styles #txtVin,
+.tasite-bootstrap-styles #txtDot {
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    .tasite-bootstrap-styles #divSpin {
+        max-width: 125px;
+        max-height: 125px;
+    }
+
+    .tasite-bootstrap-styles .tireinfo-image {
+        max-width: 125px;
+        max-height: 125px;
+    }
+
+    .tasite-bootstrap-styles .spritespin-stage img {
+        max-height: 105px;
+        max-width: 122px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tasite-bootstrap-styles .ta-addToCart-xs {
+        float: right !important;
+    }
+
+    .tasite-bootstrap-styles .pull-right-not-xs {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .tasite-bootstrap-styles .hideExtraTireInfo {
+        display: none !important;
+    }
+}
+
+.tasite-bootstrap-styles .rectangle-container {
+    overflow: visible;
+}
+
+.tasite-bootstrap-styles .square-container {
+    overflow: visible;
+}
+
+@media only screen and (max-width: 767px) {
+    .tasite-bootstrap-styles .square-container {
+        min-width: inherit;
+        max-width: inherit;
+    }
+
+    .tasite-bootstrap-styles .rectangle-container {
+        min-width: inherit;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (max-width : 1199px) {
+    .tasite-bootstrap-styles .equalHeightBrandImage {
+        height: auto !important;
+    }
+
+    .tasite-bootstrap-styles .equalHeightProductName {
+        height: auto !important;
+    }
+
+    .tasite-bootstrap-styles .equalHeightTitle {
+        height: auto !important;
+    }
+
+    .tasite-bootstrap-styles .equalHeightBenefits {
+        height: auto !important;
+    }
+
+    /*.equalHeightUserRating {
+        height: auto !important;
+    }*/
+    .tasite-bootstrap-styles .equalHeightTireImage {
+        height: auto !important;
+    }
+
+    .tasite-bootstrap-styles .equalHeightStrategyLevel {
+        height: auto !important;
+    }
+
+    .tasite-bootstrap-styles .equalHeightWarranty {
+        height: auto !important;
+    }
+}
+
+@media print {
+    .tasite-bootstrap-styles {
+        font-family: museo_slab500;
+        font-size: 12px;
+        color: #333;
+        text-align: left;
+    }
+
+    .tasite-bootstrap-styles a {
+        visibility: hidden !important;
+    }
+
+    .tasite-bootstrap-styles button {
+        visibility: hidden !important;
+    }
+
+    .tasite-bootstrap-styles .pdfLink {
+        display: none !important;
+    }
+}
+
+.tasite-bootstrap-styles .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.tasite-bootstrap-styles .navbar-nav .open .dropdown-menu>li>a,
+.tasite-bootstrap-styles .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+}
+
+.tasite-bootstrap-styles .navbar-nav .open .dropdown-menu>li>a {
+    line-height: 20px;
+}
+
+.tasite-bootstrap-styles .navbar-nav .open .dropdown-menu>li>a:hover,
+.tasite-bootstrap-styles .navbar-nav .open .dropdown-menu>li>a:focus {
+    background-image: none;
+}
+
+.tasite-bootstrap-styles .navbar-form .form-group {
+    margin-bottom: 5px;
+}
+
+.tasite-bootstrap-styles .navbar-form .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #BCBEC0;
+}
+
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #333;
+    background-color: transparent;
+}
+
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a,
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover,
+.tasite-bootstrap-styles .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
+    border-color: #080808;
+}
+
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+}
+
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #9d9d9d;
+}
+
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover,
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover,
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #fff;
+    background-color: #080808;
+}
+
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a,
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:hover,
+.tasite-bootstrap-styles .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:focus {
+    color: #444;
+    background-color: transparent;
+}
+
+.tasite-bootstrap-styles #navbarBrowse.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+.tasite-bootstrap-styles #taNavbarHeader {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    float: none !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowseBtn {
+    display: block !important;
+}
+
+.tasite-bootstrap-styles .ta-full-width.ta-navbar-header {
+    margin-top: 1.5em !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+.tasite-bootstrap-styles .ta-full-width.ta-navbar-header .navbar-brand {
+    margin-left: 0 !important;
+}
+
+.tasite-bootstrap-styles #ta-navbar .container {
+    width: auto !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    border-radius: 0 0 1em 1em;
+}
+
+.tasite-bootstrap-styles #navbarBrowse .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse .nav>li {
+    float: none !important;
+}
+
+.tasite-bootstrap-styles #ta-navbar.navbar-default.red {
+    background-color: #e21a23;
+}
+
+.tasite-bootstrap-styles #ta-navbar.navbar-default.blue {
+    background-color: #333e75;
+}
+
+.tasite-bootstrap-styles #ta-navbar.navbar-default.darkgrey {
+    background-color: #2f2f2f;
+}
+
+.tasite-bootstrap-styles #ta-navbar.navbar-default.lightgrey {
+    background-color: #a2a2a2;
+}
+
+
+.tasite-bootstrap-styles #navbarBrowse .nav:before,
+.tasite-bootstrap-styles #navbarBrowse .nav:after,
+.tasite-bootstrap-styles #navbarBrowse .navbar:before,
+.tasite-bootstrap-styles #navbarBrowse .navbar:after,
+.tasite-bootstrap-styles #navbarBrowse .navbar-header:before,
+.tasite-bootstrap-styles #navbarBrowse .navbar-header:after,
+.tasite-bootstrap-styles #navbarBrowse .navbar-collapse:before,
+.tasite-bootstrap-styles #navbarBrowse .navbar-collapse:after {
+    display: table !important;
+    content: " " !important;
+}
+
+.tasite-bootstrap-styles #navbarBrowse .nav:after,
+.tasite-bootstrap-styles #navbarBrowse .navbar:after,
+.tasite-bootstrap-styles #navbarBrowse .navbar-header:after,
+.tasite-bootstrap-styles #navbarBrowse .navbar-collapse:after {
+    clear: both !important;
+}
+
+.tasite-bootstrap-styles #taSearchControllerDiv {
+    overflow: visible;
+}
+
+.tasite-bootstrap-styles #navbarBrowse li.navText {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.tasite-bootstrap-styles .ta-tire-info p {
+    color: #333;
+    font-family: museo_slab500;
+    font-size: 1em;
+}
+
+.tasite-bootstrap-styles ul li,
+.tasite-bootstrap-styles table {
+    font-size: 1em;
+    font-family: museo_slab500;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.tasite-bootstrap-styles img {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}

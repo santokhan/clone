@@ -1,0 +1,18 @@
+﻿/* 404 Popup */
+#http404Overlay {display:none; position:fixed; top:0px; z-index:999999; height:100%; width:100%; background:rgba(0,0,0,.5);}
+#http404Message{background:url(//a2.nd-cdn.us/img/404-popup-bg.jpg) no-repeat top center; 
+                background-size:cover; color:#fff; 
+                border:solid #fff 2px; max-height:384px; height:100%; 
+                max-width:640px; width:100%; display:flex; justify-content:center; 
+                flex-direction:column; box-sizing:border-box; margin:60px auto; padding:8px;}  
+#http404Title{color:#fdc101; margin:0 0 20px 320px; font-weight:700; font-size:2em; text-align:left; 
+              text-transform: uppercase; text-shadow: 2px 2px 1px #000;}
+#http404Title span{display: block; color:#fff; font-size:5rem;}
+#http404SubTitle{font-weight:700; font-size:1.5em; margin:0 0 10px 320px;}
+#http404Text{margin-left:320px; line-height: 20px;}
+#http404Text a{display:block; color:#fdc101; cursor:pointer;} 
+
+@media only screen and (max-width: 767px) {
+	#http404Message {background: #222 !important; border: none !important;}
+	#http404Titl, #http404SubTitle, #http404Text {margin-left: 0 !important;} 
+}

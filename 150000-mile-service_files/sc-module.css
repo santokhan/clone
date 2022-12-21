@@ -1,0 +1,691 @@
+﻿.fixed-dialog {
+    z-index: 10000;
+}
+
+    .fixed-dialog .ui-dialog-titlebar-close {
+        width: auto;
+    }
+
+/* SERVICE CENTER
+----------------------------------------------------------------------------------------------------*/
+#ndsc {
+}
+
+#ndsc .wrapper {
+    display: inline-block;
+}
+
+    #ndsc #ndscctabox {
+        background: #f2f2f2;
+        padding: 7px;
+        border: 1px #ccc solid;
+        margin: 10px 0;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        line-height: 23px;
+    }
+
+        #ndsc #ndscctabox .ndcustombuttonformat {
+            width: 130px;
+            margin: 5px 5px 5px 0;
+        }
+
+    #ndsc #servicedescription #LinkButtons {
+        margin: 10px 0;
+    }
+
+    #ndsc #servicedescription {
+        margin: 10px 0;
+    }
+
+    #ndsc .required {
+        color: #FF0000;
+    }
+
+    #ndsc .ymmo {
+        width: 500px;
+        margin: 0 auto 10px;
+        overflow: hidden;
+        clear: both;
+    }
+
+    #ndsc .view-details {
+        display: inline;
+        padding: 0 5px;
+    }
+
+    #ndsc .demo-phone {
+        display: inline !important;
+        padding: 0 5px;
+        color: #666;
+    }
+
+    #ndsc .CatListItem h3 {
+        color: #000;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    #ndsc #LinkButtons {
+        margin-top: 5px;
+    }
+
+        #ndsc #LinkButtons a {
+            color: #FFF;
+            text-decoration: none;
+            float: left;
+            display: block;
+            text-align: center;
+            line-height: 24px;
+            height: 23px;
+            font-weight: 700;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+        }
+
+    #ndsc .ButtonLink1 {
+        width: 47%;
+        margin-right: 0 !important;
+    }
+
+    #ndsc .CatListItem #LinkButtons a.ButtonLink1:nth-of-type(2) {
+        float: right;
+    }
+
+    #ndsc .ButtonLink2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+    /*#ndsc .full-width .ButtonLink1 {width:auto; margin:0 5px 0 0; padding:0 8px;}
+#ndsc .full-width .ButtonLink2 {width:auto; margin:0; padding:0 8px;}*/
+    #ndsc .bold-inline {
+        font-weight: 700;
+    }
+
+    #ndsc .description {
+        height: 100px;
+        width: 75%;
+        overflow: hidden;
+    }
+    /*#ndsc .description span{font-size:12px;}*/
+    #ndsc .details {
+        height: 145px;
+    }
+
+        #ndsc .details p {
+            margin-bottom: 10px !important;
+        }
+
+    #ndsc .service-links {
+        height: 45px;
+        line-height: 11px !important;
+    }
+
+    #ndsc .ServiceLink {
+        font-size: 9px;
+    }
+
+    #ndsc .CatContent {
+        height: 170px;
+    }
+
+    #ndsc .CatListItem h3 {
+        font-size: 14px;
+    }
+
+    #ndsc .CatListItem .service-illustration {
+        height: auto;
+        width: 100%;
+        margin-top: 3px;
+    }
+
+    #ndsc .CatListItem p {
+        margin: 0 !important;
+    }
+
+    #ndsc .CatListItem {
+        width: 45%;
+        border: 1px solid #666;
+        background: #FFF;
+        color: #000;
+        padding: 10px;
+    }
+
+    #ndsc .ndscleft {
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+
+    #ndsc .ndscright {
+        float: right;
+        margin: 0 0 7px 0;
+    }
+
+    #ndsc .ServiceCenterTitle {
+        font-size: 12px;
+    }
+
+    #ndsc .LandingPageHeader {
+    }
+
+        #ndsc .LandingPageHeader h2, #ndsc .ServicePageHeader h2 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 700;
+        }
+
+    #ndsc .CategoryDescriptionText {
+        padding: 0;
+        margin: 0 !important;
+        background: url(img/none.jpg) no-repeat bottom;
+        min-height: 133px;
+    }
+
+    #ndsc .approxtime {
+        padding: 5px 0 !important;
+    }
+
+    #ndsc .approxtime, #ndsc .specialslink {
+    }
+
+    #ndsc .hasCouponLink {
+        font-size: 12px;
+        background: url(//a2.nd-cdn.us/img/ndsc/star.png) no-repeat center left;
+        text-indent: 23px;
+        text-transform: uppercase;
+    }
+
+    #ndsc .LandingPageHeader .seo {
+        width: 60%;
+        overflow: hidden;
+        color: #333;
+    }
+
+    #ndsc .LandingPageBody {
+        background: url(img/ndsc-defaultheader.jpg) no-repeat bottom center;
+    }
+
+    #ndsc #CatList {
+        position: relative;
+        left: 0;
+        overflow: hidden;
+    }
+
+        #ndsc #CatList p, #ndsc #CatList ul {
+            font-size: 11px;
+            line-height: 14px;
+        }
+
+    #ndsc .jump {
+        font-weight: 700;
+        padding: 0 20px 0 0;
+        margin: 10px 0 !important;
+    }
+
+        #ndsc .jump select {
+            margin: 0 5px;
+            vertical-align: middle;
+        }
+
+    #ndsc #LinkButtons.full-width .ButtonLink1, #ndsc #LinkButtons.full-width .ButtonLink2 {
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 0;
+    }
+
+    #ndsc #LinkButtons.full-width .ButtonLink1 {
+        margin-right: 2%;
+    }
+    /* Nivo Slider */
+    #ndsc .theme-dark.slider-wrapper {
+        padding: 0;
+        width: auto !important;
+    }
+
+    #ndsc .theme-dark img {
+    }
+
+    #ndsc #slider img {
+        border: 0 none !important;
+    }
+
+    #ndsc .theme-dark .nivoSlider {
+        position: relative;
+        margin-bottom: 5px;
+        overflow: visible;
+    }
+
+        #ndsc .theme-dark .nivoSlider img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: none;
+        }
+
+        #ndsc .theme-dark .nivoSlider a {
+            border: 0;
+            display: block;
+        }
+
+    #ndsc .theme-dark .nivo-controlNav {
+        text-align: left;
+        padding: 0;
+        position: relative;
+        z-index: 10;
+    }
+
+        #ndsc .theme-dark .nivo-controlNav a {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            text-indent: -9999px;
+            border: 1px solid #ccc;
+            margin: 0 6px 5px 0;
+        }
+
+            #ndsc .theme-dark .nivo-controlNav a.active {
+                background: #000;
+                border: 1px solid #000;
+            }
+
+    #ndsc .theme-dark .nivo-directionNav a {
+        display: none;
+        width: 30px;
+        height: 30px;
+        background: url(arrows.png) no-repeat;
+        text-indent: -9999px;
+        border: 0;
+        top: auto;
+        bottom: -36px;
+        z-index: 11;
+    }
+
+        #ndsc .theme-dark .nivo-directionNav a:hover {
+            background-color: #333;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+
+    #ndsc .theme-dark a.nivo-nextNav {
+        background-position: -16px 50%;
+        right: 0px;
+    }
+
+    #ndsc .theme-dark a.nivo-prevNav {
+        background-position: 11px 50%;
+        left: auto;
+        right: 35px;
+    }
+
+    #ndsc .theme-dark .nivo-caption {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+        #ndsc .theme-dark .nivo-caption a {
+            color: #fff;
+            border-bottom: 1px dotted #fff;
+        }
+
+            #ndsc .theme-dark .nivo-caption a:hover {
+                color: #fff;
+            }
+
+    #ndsc .theme-dark .nivo-controlNav.nivo-thumbs-enabled { /*width:80%;*/
+    }
+
+        #ndsc .theme-dark .nivo-controlNav.nivo-thumbs-enabled a {
+            width: auto;
+            height: auto;
+            background: none;
+        }
+
+        #ndsc .theme-dark .nivo-controlNav.nivo-thumbs-enabled img {
+            display: block;
+            width: 110px;
+            height: auto;
+        }
+
+
+/* NDSC SLIDER 
+----------------------------------------------------------------------------------------------------*/
+.ndscCatImage4 {
+    float: left;
+    height: 135px;
+    margin: 0 2px;
+    text-align: center;
+    width: 96px;
+}
+
+.ndscCatImage3 {
+    display: block !important;
+    margin: 0 auto;
+    width: 75px !important;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.ndscCatImage2 {
+    background: #fff;
+    height: 81px;
+    margin: 5px 0;
+    width: 73px;
+    border: 1px solid #000;
+}
+
+.ndscCatImage1 {
+    height: 60px;
+    width: 60px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+
+    .ndscCatImage1 catImage {
+        float: none !important;
+    }
+
+#slider_div {
+    height: 165px !important;
+    margin-bottom: 0px !important;
+}
+
+#services_div #services_ul {
+    height: 155px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 800px;
+    display: block;
+    list-style: none outside none;
+}
+
+#services_div {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #003876;
+    clear: both;
+    display: inline-block;
+    height: 175px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 458px;
+}
+
+    #services_div #services_ul li {
+        display: inline;
+        float: left;
+        height: 135px;
+        margin: 10px 0;
+        position: relative;
+        width: 100px;
+    }
+
+
+.clearRight {
+    clear: right;
+    display: block;
+}
+
+.contentDiv {
+    clear: both;
+    display: block;
+}
+
+.checkBoxList {
+    float: left;
+}
+
+.ServiceCenterTitle {
+    font-size: 20px;
+}
+
+.CatListItem {
+    float: left;
+    padding: 10px 10px 0px 0px;
+}
+
+.nivoSlider {
+    position: relative;
+    /*width:100%;*/
+    height: auto;
+    overflow: hidden !important;
+}
+
+    .nivoSlider img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        max-width: none;
+    }
+
+.nivo-main-image {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    display: block;
+    background-color: #fff;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+}
+
+
+/* The slices and boxes in the Slider */
+.nivo-slice {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    height: 100%;
+    top: 0;
+}
+
+.nivo-box {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+}
+
+    .nivo-box img {
+        display: block;
+    }
+
+/* Caption styles */
+.nivo-caption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    z-index: 8;
+    padding: 5px 10px;
+    opacity: 0.8;
+    overflow: hidden;
+    display: none;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=8);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+    .nivo-caption p {
+        padding: 5px;
+        margin: 0;
+    }
+
+    .nivo-caption a {
+        display: inline !important;
+    }
+
+.nivo-html-caption {
+    display: none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+    position: absolute;
+    top: 45%;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.nivo-prevNav {
+    left: 0px;
+}
+
+.nivo-nextNav {
+    right: 0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+    text-align: center;
+    padding: 15px 0;
+}
+
+    .nivo-controlNav a {
+        cursor: pointer;
+    }
+
+        .nivo-controlNav a.active {
+            font-weight: bold;
+        }
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.video-link {
+    padding: 4px 4px 4px 6px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+.videoArrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent #FFFFFF;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 980px) {
+
+    /* Temporary Styles */
+    #ndsc .CatListItem {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    #ndsc .ndscleft, #ndsc .ndscright {
+        margin: 0 0 1%;
+        width: 49%;
+    }
+
+    #ndsc .ButtonLink1 {
+        margin: 0;
+        width: 49%;
+    }
+
+        #ndsc .ButtonLink1:first-of-type {
+            margin-right: 2%;
+        }
+}
+
+@media only screen and (max-width: 640px) {
+
+    #ndsc .CatListItem {
+        float: none;
+        margin: 0 0 2%;
+        height: auto;
+        overflow: hidden;
+        width: auto;
+        padding: 2%;
+    }
+
+    #ndsc .CatContent {
+        height: auto;
+    }
+
+    #ndsc .hasCouponLink {
+    }
+
+    #ndsc .ButtonLink1 {
+        width: 49%;
+        margin: 0;
+        padding: 0;
+    }
+
+        #ndsc .ButtonLink1:first-of-type {
+            margin-right: 2%;
+        }
+
+    #ndsc .ButtonLink2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    #ndsc #ndscctabox .ndcustombuttonformat {
+        width: auto;
+        margin: 0 0 2%;
+    }
+
+    #ndsc .jump {
+        padding: 0;
+    }
+
+        #ndsc .jump select {
+            width: 100%;
+            margin: 0 0 2%;
+        }
+
+    #ndsc #LinkButtons.full-width .ButtonLink1, #ndsc #LinkButtons.full-width .ButtonLink2 {
+        width: 100%;
+        margin: 0 0 1% 0;
+        padding: 1%;
+        box-sizing: border-box;
+        height: auto;
+    }
+    /* Temporary Styles */
+    #ndsc #LinkButtons a {
+        font-size: 12px;
+    }
+}

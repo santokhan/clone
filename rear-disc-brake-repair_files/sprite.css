@@ -1,0 +1,38 @@
+﻿/* Image Control For Sprites */
+#ndsc .CatIcon, .catImage {float:right; height:60px; width:60px; margin:0 0 5px 5px; *margin:0 !important;}
+#ndsc .test-image-class{background:url(//a2.nd-cdn.us/img/ndsc/icon-set-01.png) no-repeat -60px -60px; height:60px; width:60px;}
+#ndsc .big-test-image-class{background:url(img/big-test-image.jpg) no-repeat bottom center;}
+
+#ndsc .FourWheelDrive, #ndsc .AutoBody, #ndsc .AutoGlass, #ndsc .AxleDriveShaft, #ndsc .Batteries, #ndsc .BeltsHoses, #ndsc .Brakes, #ndsc .CoolingSystem, #ndsc .DiselEngines, #ndsc .Differential, #ndsc .ElectronicSystem, #ndsc .EngineDiagnostics, #ndsc .ExhaustSystems, #ndsc .FoamFill, #ndsc .GeneralInspection, #ndsc .HeatingCooling, #ndsc .OilChange, #ndsc .PrentativeMaintenance, #ndsc .ProvincialInspections, #ndsc .StateInspection, #ndsc .SteeringSuspension, #ndsc .TPMS, #ndsc .Tires, #ndsc .Towing, #ndsc .Transmission, #ndsc .WheelAlignment, #ndsc .Wheels, #ndsc .NitrogenTire, #ndsc .RoadsideAssastance, #ndsc .Generic{background:url(//a2.nd-cdn.us/img/ndsc/icon-set-01.png) no-repeat;}
+
+#ndsc #ndscctabox a img{vertical-align:text-bottom;}
+#ndsc .FourWheelDrive{background-position:0 0;}
+#ndsc .AutoBody{background-position:-60px 0;}
+#ndsc .AutoGlass{background-position:-120px 0;}
+#ndsc .AxleDriveShaft{background-position:-180px 0;}
+#ndsc .Batteries{background-position:-240px 0px;}
+#ndsc .BeltsHoses{background-position:0 -60px;}
+#ndsc .Brakes{background-position:-60px -60px;}
+#ndsc .CoolingSystem{background-position:-120px -60px;}
+#ndsc .DiselEngines{background-position:-180px -60px;}
+#ndsc .Differential{background-position:-240px -60px;}
+#ndsc .ElectronicSystem{background-position:0 -120px;}
+#ndsc .EngineDiagnostics{background-position:-60px -120px;}
+#ndsc .ExhaustSystems{background-position:-120px -120px;}
+#ndsc .FoamFill{background-position:-180px -120px;}
+#ndsc .GeneralInspection{background-position:-240px -120px;}
+#ndsc .HeatingCooling{background-position:0 -180px;}
+#ndsc .OilChange{background-position:-60px -180px;}
+#ndsc .PrentativeMaintenance{background-position:-120px -180px;}
+#ndsc .ProvincialInspections{background-position:-180px -180px;}
+#ndsc .StateInspection{background-position:-240px -180px;}
+#ndsc .SteeringSuspension{background-position:0 -240px;}
+#ndsc .TPMS{background-position:-60px -240px;}
+#ndsc .Tires{background-position:-120px -240px;}
+#ndsc .Towing{background-position:-180px -240px;}
+#ndsc .Transmission{background-position:-240px -240px;}
+#ndsc .WheelAlignment{background-position:0 -300px;}
+#ndsc .Wheels{background-position:-60px -300px;}
+#ndsc .NitrogenTire{background-position:-120px -300px;}
+#ndsc .RoadsideAssastance{background-position:-180px -300px;}
+#ndsc .Generic{background-position:-240px -300px;}

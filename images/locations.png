@@ -1,0 +1,25 @@
+
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>You have reached this page in error...</title>
+<link href="../css/404.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	function redirect(){
+		var url = location.hostname;
+		window.location.href = location.protocol + '//' + url;
+	}
+</script>
+</head>
+<body>
+<div id="container">
+<div id="error" onclick="redirect()">
+<h1>404: Page not found</h1>
+<h2>The page you are looking for has been moved or No longer exists.</h2>
+</div>
+<div id="contact">
+<p>Copyright © 2007-2022 All rights reserved.</p>
+</div>
+</div>
+</body>
+</html>
